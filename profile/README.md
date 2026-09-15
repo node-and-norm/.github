@@ -10,24 +10,24 @@ Node & Norm develops research methods, evidence records, and reference implement
 
 | Project | Question or function | Start here |
 | :--- | :--- | :--- |
-| **Trust, Autonomy & Evidence (TAE)** | What supports justified reliance and practical human control? | [Research repository](https://github.com/mj3b/trust-autonomy-evidence) · [Releases](https://github.com/mj3b/trust-autonomy-evidence/releases) |
-| **Human Influence Telemetry (HIT)** | What do records establish about the exercise of human authority? | [Method and implementation](https://github.com/mj3b/human-influence-telemetry) · [Releases](https://github.com/mj3b/human-influence-telemetry/releases) |
+| **Trust, Autonomy & Evidence (TAE)** | What supports justified reliance and practical human control? | [Research repository](https://github.com/node-and-norm/trust-autonomy-evidence) · [Releases](https://github.com/node-and-norm/trust-autonomy-evidence/releases) |
+| **Human Influence Telemetry (HIT)** | What do records establish about the exercise of human authority? | [Method and implementation](https://github.com/node-and-norm/human-influence-telemetry) · [Releases](https://github.com/node-and-norm/human-influence-telemetry/releases) |
 | **Control Evidence Corpus (CEC)** | Can independent reviewers reconstruct control operation from surviving evidence? | Development infrastructure; repository currently private. Independent empirical validation remains pending. |
 
 ## Decision governance
 
 | Project | Role | Repository |
 | :--- | :--- | :--- |
-| **Governed Decision Intelligence (GDI)** | General decision-record specification and reference implementation | [governed-decision-intelligence](https://github.com/mj3b/governed-decision-intelligence) |
-| **AI Assistance Governance** | Method/profile for bounded AI participation, assigned human authority, and dependency assessment | [rgds-ai-governance](https://github.com/mj3b/rgds-ai-governance) |
-| **Regulated Gate Decision Support (RGDS)** | Regulated phase-gate reference implementation | [rgds](https://github.com/mj3b/rgds) |
-| **RGDS independent study** | Historical and exploratory research supporting the decision-governance program | [Study repository](https://github.com/mj3b/rgds-independent-study) · [Read the study](https://mj3b.github.io/rgds-independent-study/) |
+| **Governed Decision Intelligence (GDI)** | General decision-record specification and reference implementation | [governed-decision-intelligence](https://github.com/node-and-norm/governed-decision-intelligence) |
+| **AI Assistance Governance** | Method/profile for bounded AI participation, assigned human authority, and dependency assessment | [rgds-ai-governance](https://github.com/node-and-norm/rgds-ai-governance) |
+| **Regulated Gate Decision Support (RGDS)** | Regulated phase-gate reference implementation | [rgds](https://github.com/node-and-norm/rgds) |
+| **RGDS independent study** | Historical and exploratory research supporting the decision-governance program | [Study repository](https://github.com/node-and-norm/rgds-independent-study) · [Read the study](https://node-and-norm.github.io/rgds-independent-study/) |
 
 The hierarchy is GDI's general decision architecture, the AI Assistance Governance profile, and RGDS's regulated reference implementation. The independent study retains its own research record.
 
 ## Research workflow
 
-[**Applied AI Research Translator**](https://github.com/mj3b/applied-ai-research-translator) turns research inputs into traceable claims, bounded tasks, and decision records subject to human review.
+[**Applied AI Research Translator**](https://github.com/node-and-norm/applied-ai-research-translator) turns research inputs into traceable claims, bounded tasks, and decision records subject to human review.
 
 <details>
 <summary><strong>How the repositories relate</strong></summary>
