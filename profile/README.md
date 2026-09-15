@@ -6,15 +6,14 @@
 
 Node & Norm develops research methods, evidence records, and reference implementations for examining human authority and institutional control in AI-mediated decisions. The work asks what reviewers can reconstruct, which conclusions the evidence supports, and where uncertainty remains.
 
-## Research and methods
+## Human Control & Decision Authority
 
 | Project | Question or function | Start here |
 | :--- | :--- | :--- |
 | **Trust, Autonomy & Evidence (TAE)** | What supports justified reliance and practical human control? | [Research repository](https://github.com/node-and-norm/trust-autonomy-evidence) · [Releases](https://github.com/node-and-norm/trust-autonomy-evidence/releases) |
 | **Human Influence Telemetry (HIT)** | What do records establish about the exercise of human authority? | [Method and implementation](https://github.com/node-and-norm/human-influence-telemetry) · [Releases](https://github.com/node-and-norm/human-influence-telemetry/releases) |
-| **Control Evidence Corpus (CEC)** | Can independent reviewers reconstruct control operation from surviving evidence? | Development infrastructure; repository currently private. Independent empirical validation remains pending. |
 
-## Decision governance
+## Decision Evidence & Governed Action
 
 | Project | Role | Repository |
 | :--- | :--- | :--- |
@@ -24,6 +23,20 @@ Node & Norm develops research methods, evidence records, and reference implement
 | **RGDS independent study** | Historical and exploratory research supporting the decision-governance program | [Study repository](https://github.com/node-and-norm/rgds-independent-study) · [Read the study](https://node-and-norm.github.io/rgds-independent-study/) |
 
 The hierarchy is GDI's general decision architecture, the AI Assistance Governance profile, and RGDS's regulated reference implementation. The independent study retains its own research record.
+
+## AI Evaluation & Assurance
+
+[**Catholic Doctrinal Fidelity Index (CDFI)**](https://github.com/node-and-norm/cdfi-framework) provides evaluation-governance methodology and a reference implementation for domain-specific doctrinal assessment. Scoring-contract reconciliation remains open. SAICRED is an external collaborative project with its own leadership and publication authority.
+
+## Emerging research and shared infrastructure
+
+| Work | Question and status |
+| :--- | :--- |
+| **Institutional Responsibility & Repair** | What does an institution owe after AI-mediated harm? Poenitentia Institutionum develops the normative argument; empirical outcome validation remains open. Its research repository is private. |
+| **Incident Reconstruction & Assurance** | What can the surviving record establish about an incident and the controls available? An emerging question across the three programs. |
+| **Control Evidence Corpus (CEC)** | Can independent reviewers reconstruct control operation from surviving evidence? Private development infrastructure; independent empirical validation remains pending. |
+
+These emerging areas preserve the website's three permanent research programs. The website Registry owns presentation identities and admitted summaries. Each research repository retains its own source and release authority.
 
 ## Research workflow
 
