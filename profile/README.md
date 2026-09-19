@@ -1,58 +1,90 @@
-<p align="center"><strong>NODE &amp; NORM</strong></p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/node-and-norm/.github/main/assets/brand/linkedin-company-cover.png" alt="Node & Norm · Independent AI Assurance & Evaluation Research. Midnight and electric-blue conceptual decision graph." width="1000">
+</p>
 
-<h1 align="center">AI assurance &amp; evaluation</h1>
+# AI under control. Can you prove it?
 
-<p align="center">What evidence establishes that governance had practical force?</p>
+**Independent AI assurance & evaluation research lab.**
 
-Node & Norm develops research methods, evidence records, and reference implementations for examining human authority and institutional control in AI-mediated decisions. The work asks what reviewers can reconstruct, which conclusions the evidence supports, and where uncertainty remains.
+Node & Norm studies the evidence behind AI-assisted decisions: how they are evaluated, authorized, challenged, and corrected. The research examines whether safeguards worked and whether the evidence exists to show it.
 
-## Human Control & Decision Authority
+[Explore the research](#explore-the-research) · [Where the work stands](#where-the-work-stands) · [Brand assets](https://github.com/node-and-norm/.github/tree/main/assets/brand)
 
-| Project | Question or function | Start here |
-| :--- | :--- | :--- |
-| **Trust, Autonomy & Evidence (TAE)** | What supports justified reliance and practical human control? | [Research repository](https://github.com/node-and-norm/trust-autonomy-evidence) · [Releases](https://github.com/node-and-norm/trust-autonomy-evidence/releases) |
-| **Human Influence Telemetry (HIT)** | What do records establish about the exercise of human authority? | [Method and implementation](https://github.com/node-and-norm/human-influence-telemetry) · [Releases](https://github.com/node-and-norm/human-influence-telemetry/releases) |
+## From governance to evidence
 
-## Decision Evidence & Governed Action
+Policies, risk reviews, and approvals establish expectations for AI use. A consequential decision still needs evidence that those expectations held. What supported the recommendation? Who could challenge it? Did the correction reach execution?
 
-| Project | Role | Repository |
-| :--- | :--- | :--- |
-| **Governed Decision Intelligence (GDI)** | General decision-record specification and reference implementation | [governed-decision-intelligence](https://github.com/node-and-norm/governed-decision-intelligence) |
-| **AI Assistance Governance** | Method/profile for bounded AI participation, assigned human authority, and dependency assessment | [rgds-ai-governance](https://github.com/node-and-norm/rgds-ai-governance) |
-| **Regulated Gate Decision Support (RGDS)** | Regulated phase-gate reference implementation | [rgds](https://github.com/node-and-norm/rgds) |
-| **RGDS independent study** | Historical and exploratory research supporting the decision-governance program | [Study repository](https://github.com/node-and-norm/rgds-independent-study) · [Read the study](https://node-and-norm.github.io/rgds-independent-study/) |
+Node & Norm develops methods, evidence records, and reference implementations for examining those questions. Sources, versions, and unresolved findings stay attached to the work.
 
-The hierarchy is GDI's general decision architecture, the AI Assistance Governance profile, and RGDS's regulated reference implementation. The independent study retains its own research record.
+## Explore the research
 
-## AI Evaluation & Assurance
+### Human Control & Decision Authority
 
-[**Catholic Doctrinal Fidelity Index (CDFI)**](https://github.com/node-and-norm/cdfi-framework) provides evaluation-governance methodology and a reference implementation for domain-specific doctrinal assessment. Scoring-contract reconciliation remains open. SAICRED is an external collaborative project with its own leadership and publication authority.
+Can the person assigned responsibility actually affect what happens?
 
-## Emerging research and shared infrastructure
-
-| Work | Question and status |
+| Research | What to inspect |
 | :--- | :--- |
-| **Institutional Responsibility & Repair** | What does an institution owe after AI-mediated harm? Poenitentia Institutionum develops the normative argument; empirical outcome validation remains open. Its research repository is private. |
-| **Incident Reconstruction & Assurance** | What can the surviving record establish about an incident and the controls available? An emerging question across the three programs. |
-| **Control Evidence Corpus (CEC)** | Can independent reviewers reconstruct control operation from surviving evidence? Private development infrastructure; independent empirical validation remains pending. |
+| [Trust, Autonomy & Evidence (TAE)](https://github.com/node-and-norm/trust-autonomy-evidence) | Conditions for practical human control, from evidence access to an intervention taking effect. Three selected historical cases; one assessor. |
+| [Human Influence Telemetry (HIT)](https://github.com/node-and-norm/human-influence-telemetry) | What documentary records establish about the exercise of human authority. Broader validation remains open. |
 
-These emerging areas preserve the website's three permanent research programs. The website Registry owns presentation identities and admitted summaries. Each research repository retains its own source and release authority.
+### Decision Evidence & Governed Action
 
-## Research workflow
+Can a team reconstruct why it proceeded, stopped, or waited, and what obligations remained?
 
-[**Applied AI Research Translator**](https://github.com/node-and-norm/applied-ai-research-translator) turns research inputs into traceable claims, bounded tasks, and decision records subject to human review.
+| Research | What to inspect |
+| :--- | :--- |
+| [Governed Decision Intelligence (GDI)](https://github.com/node-and-norm/governed-decision-intelligence) | General decision-record specification and reference implementation. |
+| [AI Assistance Governance](https://github.com/node-and-norm/rgds-ai-governance) | A method/profile for bounded AI participation, assigned human authority, and dependency assessment. |
+| [Regulated Gate Decision Support (RGDS)](https://github.com/node-and-norm/rgds) | Regulated phase-gate reference implementation, illustrative records, and validation tools. |
+| [RGDS independent study](https://github.com/node-and-norm/rgds-independent-study) | Historical, exploratory research with its own record. [Read the study](https://node-and-norm.github.io/rgds-independent-study/). |
+
+GDI supplies the general decision architecture, AI Assistance Governance defines its participation profile, and RGDS supplies a regulated reference implementation. Availability of code does not establish field effectiveness.
+
+### AI Evaluation & Assurance
+
+Do evaluation rules, implementation, and evidence support the reported result?
+
+[**Catholic Doctrinal Fidelity Index (CDFI)**](https://github.com/node-and-norm/cdfi-framework) develops evaluation-governance methodology and a reference implementation for domain-specific doctrinal assessment. Scoring-contract reconciliation remains open. SAICRED is an external collaborative project with its own leadership and publication authority.
+
+## Where the work stands
+
+These are different dimensions: publication status, ongoing research, and source availability. Status reflects the author's website update of **15 September 2026**; it does not advance the scope of earlier findings.
+
+| Work | Dimension | Current record |
+| :--- | :--- | :--- |
+| TAE manuscript | Publication status | On hold pending arXiv approval |
+| HIT | Research status | Research in progress |
+| CDFI | Research status | Evolving |
+| GDI | Availability | Open source |
+| RGDS | Availability | Open source |
+| Poenitentia Institutionum | Publication status | Editorial review |
 
 <details>
-<summary><strong>How the repositories relate</strong></summary>
+<summary><strong>Emerging research and shared infrastructure</strong></summary>
 
-Each project maintains its own scope, versioning, validation status, and releases. The developing Control Evidence Corpus is intended to supply canonical empirical records for downstream work in TAE, HIT, RGDS, and future studies. That integration remains prospective and must preserve source dependence, missingness, and exact-version provenance.
+**AI Incident Reconstruction & Assurance** examines what happened, which controls held, and what supports a correction. Website case records remain provisional documentary reviews.
 
-Shared organizational ownership supplies no additional validity to a method or result. A claim about one project's validation must be assessed against that project's reported evidence and limitations.
+**Institutional Responsibility & Repair** asks what an institution owes those affected by AI-mediated harm. *Poenitentia Institutionum* develops the normative argument; its repository is private and empirical outcome validation remains open.
+
+**Control Evidence Corpus (CEC)** is private development infrastructure for testing whether independent reviewers can reconstruct control operation from surviving evidence. Its empirical integration with downstream projects remains prospective.
+
+These areas preserve the three permanent research programs above. The website Registry owns presentation identities and admitted summaries. Each source repository retains its research and release authority.
 
 </details>
 
-## Read, reproduce, and contribute
+<details>
+<summary><strong>Research workflow, provenance, and reuse</strong></summary>
 
-Start with a project's README and research-status statement, then inspect its versioned release, source provenance, and validation instructions. Use that repository's contribution and correction process. Cite its authors and exact artifact version; organizational stewardship preserves those credits.
+[Applied AI Research Translator](https://github.com/node-and-norm/applied-ai-research-translator) turns research inputs into traceable claims, bounded tasks, and decision records subject to human review.
 
-Research led by [Mark Julius Banasihan](https://github.com/mj3b). Public repositories retain their individual licenses and attribution requirements.
+Each project maintains its own scope, versions, validation status, and releases. Reuse must preserve source dependence, missingness, evidence cutoffs, and exact-version provenance. Shared organizational ownership supplies no additional validity to a method or result.
+
+Start with the project's research-status statement, then inspect its versioned release, sources, and validation instructions. Use its contribution and correction process. Cite the authors and exact artifact version.
+
+</details>
+
+---
+
+Founded by [Mark Julius Banasihan](https://github.com/mj3b). Independent replication and field studies remain necessary to establish broader reliability and practical benefit.
+
+*Every decision is a Node. Every standard is a Norm.*

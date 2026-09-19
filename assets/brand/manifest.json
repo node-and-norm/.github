@@ -1,0 +1,28 @@
+{
+  "source": "Node-and-Norm-Brand-Kit.zip",
+  "source_sha256": "1cec8ebfe0c233e3d3ebc2325a1d22410632c8ad16f86bc18fb2f121cd23ffa7",
+  "imported": "2026-09-18",
+  "treatment": "Original user-supplied bytes; no image or guide modifications.",
+  "files": {
+    "README.md": "47391059ece0dbf6bef2939e0d62d152ba3af99ddef23a25fafca673aa0b2aed",
+    "favicon.svg": "79fb31e361a3554f5e8da6e0718f628db169457af856f9840c9ab83c6c325346",
+    "identity-preview.png": "9e956d7440374f8ce891d4c4c79b9564006f1d2558ed8ce40478d640cee4d415",
+    "identity-preview.svg": "f8f227529f180e987e4b5f5c66b66e11104e17854cc8c36386903124c1b81beb",
+    "linkedin-company-cover.png": "0f41a1d5ac1e578ab8abc1a3f0c26e4a77ad3e7863173c50846939fb0fbdbad8",
+    "linkedin-company-cover.svg": "7a5697ab5d18752ace54fe288cc9445fdfebefdada70a54a469873a46389951c",
+    "linkedin-logo.png": "6af5a2eb014cd566f1191cb33f2de82db53fa88e4b8382b5eaaccc3b59a6afa4",
+    "linkedin-logo.svg": "4f86610cdb0bf7a7332c0f34d9fc6f4a3b705272a4cde807edeaa4f8dc0f907f",
+    "logo-square-ivory.png": "85e10f82419cb70d35fbbfbe12f3cdfed67abbd91206aa8528adc244e3acca28",
+    "logo-square-ivory.svg": "3e9e2d39cce447d446e83469062c1340cfaae0190e2e069ec1e9ad6848c319fe",
+    "logo-square-paper.png": "85e10f82419cb70d35fbbfbe12f3cdfed67abbd91206aa8528adc244e3acca28",
+    "logo-square-paper.svg": "3e9e2d39cce447d446e83469062c1340cfaae0190e2e069ec1e9ad6848c319fe",
+    "node-and-norm-mark-light.png": "6eb7f53f941892c9956360acb81cb8aa37e31e33f4fe2d563ac3273f889a6d89",
+    "node-and-norm-mark-light.svg": "711a2604a2bcf0304fa20bf4d5be62776b2fe0345f29b2ebcf8694bff04aa0b3",
+    "node-and-norm-mark-transparent.png": "e5bde7b12ffc48d228102ade4c81434848c98edc3698893be0aa90a597bda75d",
+    "node-and-norm-mark-transparent.svg": "daac4f6fd4cdcf70beee7cba110151c0de2f7e959f4e5423b1d2f3656af124ba",
+    "node-and-norm-mark.png": "7fd0abd1e8b2f059c1ea1cd6d790d41c77af986593b1e4b4c1123f657dc40a51",
+    "node-and-norm-mark.svg": "79fb31e361a3554f5e8da6e0718f628db169457af856f9840c9ab83c6c325346",
+    "node-and-norm-wordmark.png": "f57b18bd28385f470a72dfb51f26f9fe5ce05c40d33b4858322a69c4134d6616",
+    "node-and-norm-wordmark.svg": "a3e6abb90aa09d5562d06a12bd5c3a87045aa599239d9a17d5c07421d920c324"
+  }
+}
