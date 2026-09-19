@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/node-and-norm/.github/main/assets/brand/linkedin-company-cover.png?v=7edba2477150" alt="Node & Norm · Independent AI Assurance & Evaluation Research. Midnight and electric-blue conceptual decision graph." width="1000">
-</p>
-
 # AI under control. Can you prove it?
 
 **Independent AI assurance & evaluation research lab.**
