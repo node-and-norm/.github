@@ -1,7 +1,5 @@
 # AI under control. Can you prove it?
 
-**Independent AI assurance & evaluation research lab.**
-
 Node & Norm studies the evidence behind AI-assisted decisions: how they are evaluated, authorized, challenged, and corrected. The research examines whether safeguards worked and whether the evidence exists to show it.
 
 [Explore the research](#explore-the-research) · [Where the work stands](#where-the-work-stands) · [Brand assets](https://github.com/node-and-norm/.github/tree/main/assets/brand)
