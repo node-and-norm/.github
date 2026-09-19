@@ -7,7 +7,7 @@ This repository maintains the public research directory displayed on the [Node &
 | Location | Purpose |
 | :--- | :--- |
 | `profile/README.md` | Organization landing page, research links, and dated work states |
-| `assets/brand/` | Original assets from the supplied Midnight / Electric blue brand kit |
+| `assets/brand/` | Current Midnight / Electric blue brand kit, including the revised high-resolution banner |
 | `assets/brand/manifest.json` | Source ZIP identity and SHA-256 hashes for the imported files |
 | `WEBSITE_ALIGNMENT.md` | Website comparison, presentation limits, and update boundaries |
 
