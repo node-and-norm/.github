@@ -1,0 +1,13 @@
+{
+  "updated": "2026-09-26",
+  "source": "Owner-approved banner and website identity",
+  "banner_sha256": "7615fccfc2fae112bf01b9133235a4971cfce3d026265eca55b28742bc406b3e",
+  "wordmark": "Space Grotesk; letters 500, ampersand 400; outlined vector glyphs; proportional website spacing",
+  "files": {
+    "SPACE-GROTESK-LICENSE.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+    "banner.png": "7615fccfc2fae112bf01b9133235a4971cfce3d026265eca55b28742bc406b3e",
+    "banner.svg": "178e1018845b43ba22de409d389ee48860163b229ea8fbca2ad164c4d5d28df6",
+    "logo.png": "1388ce2cc02993d436a04fdabad1de3ec52d22396fcb39bd9c2a5270b9e35958",
+    "logo.svg": "def26d7e6887ce1c1846ea3929816df9b9c6484f30679642d003724c3df85f55"
+  }
+}
