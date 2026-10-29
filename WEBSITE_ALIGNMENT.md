@@ -14,4 +14,8 @@ The current logo and banner use the site's carbon and iris identity. The approve
 
 Project READMEs and releases govern technical status. Publication plans, repository availability, internal checks, external replication, and field effectiveness remain distinct. TAE's methods demonstration and initial Jev phase are closed; its revised preprint and software snapshot have separate Zenodo archives. The arXiv hold is attributed to the author's authenticated observation on 16 October 2026. CEC retains separate evidence rules, development status, release gates, and research claims. No separate Registry page is assumed.
 
-Profile changes do not revise research findings, project-level authorship, releases, DOIs, or methodological gates. Private repositories and unpublished source packets are excluded from the public directory.
+Profile changes do not revise research findings, project-level authorship, releases, DOIs, or methodological gates. Private repositories and unpublished source packets remain excluded from the public technical directory. Owner-approved announcements may link to public project introductions and publisher pages while the repositories and manuscripts remain private.
+
+## Forthcoming-work announcements — 29 October 2026
+
+The owner authorized high-level public listings for Approval Evidence Sufficiency and Poenitentia Institutionum alongside the existing CEC technical entry. These are distinct from the public technical repository table. Only previously approved website summaries and the publisher link are exposed; private repository URLs, working files, correspondence and the full chapter are not published. Repository visibility is unchanged. Publication date and chapter number remain unconfirmed, and publication itself is not treated as permission to release the repository or manuscript. Any later public release requires a separate sharing decision and review of the publication agreement and included materials.

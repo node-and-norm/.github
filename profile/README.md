@@ -19,6 +19,15 @@ The [website](https://nodeandnorm.org/) develops these questions through essays 
 
 The [RGDS independent study](https://node-and-norm.github.io/rgds-independent-study/) provides the accompanying exploratory account; its [repository](https://github.com/node-and-norm/rgds-independent-study) preserves the study materials.
 
+## Forthcoming research and publication
+
+| Work | Public introduction | Current status |
+| :--- | :--- | :--- |
+| *Poenitentia Institutionum* | Prudence, institutional responsibility, and repair in AI-assisted decisions. [Read the chapter introduction](https://nodeandnorm.org/research/institutional-responsibility-repair/) · [Publisher’s book page](https://enroutebooksandmedia.com/aifromacatholicperspective/). | Forthcoming chapter in *AI from a Catholic Perspective*, edited by Jane F. Adolphe and Łukasz Mirosław. Manuscript repository private; publication date and book chapter number remain unconfirmed. |
+| Approval Evidence Sufficiency | Research into what approval records can establish about a proposed action, and when missing evidence leaves the conclusion unresolved. [Public research overview](https://nodeandnorm.org/research#approval-evidence-sufficiency). | In development; repository private. Public materials and a publication date have not been announced. |
+
+These are public announcements of ongoing work. The linked introductions describe the scope; they do not provide access to private research files or the full chapter.
+
 ## Reproduce a result
 
 1. Read the project's research-status and limitations statements before interpreting its outputs.
