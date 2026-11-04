@@ -1,0 +1,19 @@
+{
+  "slug": "tae",
+  "title": "Trust, Autonomy, and Evidence",
+  "purpose": "Tracing the evidence for practical human control.",
+  "mobile_title_lines": ["Trust, Autonomy,", "and Evidence"],
+  "mobile_purpose_lines": ["Tracing the evidence for", "practical human control."],
+  "badges": [
+    {"id": "status", "label": "status", "value": "methods closed", "width": 164},
+    {"id": "version", "label": "release", "value": "v0.18.0", "width": 128},
+    {"id": "license", "label": "license", "value": "Apache-2.0", "width": 154},
+    {"id": "paper", "label": "paper", "value": "2026-11-01", "width": 145}
+  ],
+  "sources": {
+    "title_and_version": "https://github.com/node-and-norm/trust-autonomy-evidence/blob/78e672ec6ab416c5e55525f2d40322727f7f645d/CITATION.cff",
+    "purpose_and_status": "https://github.com/node-and-norm/trust-autonomy-evidence/blob/78e672ec6ab416c5e55525f2d40322727f7f645d/docs/research-summary.md",
+    "license": "https://github.com/node-and-norm/trust-autonomy-evidence/blob/78e672ec6ab416c5e55525f2d40322727f7f645d/LICENSE",
+    "paper": "https://github.com/node-and-norm/trust-autonomy-evidence/blob/78e672ec6ab416c5e55525f2d40322727f7f645d/docs/zenodo-publication-2026-11-01.md"
+  }
+}
