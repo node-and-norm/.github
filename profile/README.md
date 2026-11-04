@@ -39,8 +39,8 @@ The supporting repositories explore [research-to-decision workflows](https://git
 This directory groups repositories by their stated purpose. Its connections describe research roles. Each project's evidence requires separate assessment. [Control methods](https://github.com/node-and-norm/trust-autonomy-evidence), [decision structures](https://github.com/node-and-norm/governed-decision-intelligence), [domain evaluation](https://github.com/node-and-norm/cdfi-framework).
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/node-and-norm/.github/bd79e744114897aad5feb763c91a735d39c2aa47/assets/research/v1/repository-map/map-mobile-dark.svg">
-  <img src="https://raw.githubusercontent.com/node-and-norm/.github/bd79e744114897aad5feb763c91a735d39c2aa47/assets/research/v1/repository-map/map-dark.svg" alt="Node and Norm connects nine repositories across practical human control, decision records and supporting research. The labeled relationships are described in the themes above and project tables below." width="1000">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/node-and-norm/.github/c7ad6b9ae6b4d007bef1a416e17c20338cc49cce/assets/research/v1/repository-map/map-mobile-dark.svg">
+  <img src="https://raw.githubusercontent.com/node-and-norm/.github/c7ad6b9ae6b4d007bef1a416e17c20338cc49cce/assets/research/v1/repository-map/map-dark.svg" alt="Node and Norm connects nine repositories across practical human control, decision records and supporting research. The labeled relationships are described in the themes above and project tables below." width="1000">
 </picture>
 
 <details>
