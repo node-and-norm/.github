@@ -1,0 +1,36 @@
+{
+  "title": "Applied AI Research Translator",
+  "purpose": "Turn research claims into reviewable decision artifacts.",
+  "mobile_title_lines": [
+    "Applied AI",
+    "Research Translator"
+  ],
+  "mobile_purpose_lines": [
+    "Turn research claims into",
+    "reviewable decision artifacts."
+  ],
+  "badges": [
+    {
+      "label": "Status",
+      "value": "Research software",
+      "source": "LIMITATIONS.md",
+      "id": "status"
+    },
+    {
+      "label": "Version",
+      "value": "v1.1.1",
+      "source": "CITATION.cff",
+      "id": "version"
+    },
+    {
+      "label": "License",
+      "value": "Apache-2.0",
+      "source": "LICENSE",
+      "id": "license"
+    }
+  ],
+  "sources": [
+    "CITATION.cff"
+  ],
+  "desktop_title_size": 40
+}

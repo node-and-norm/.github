@@ -1,0 +1,36 @@
+{
+  "title": "AI Assistance Governance",
+  "purpose": "Record AI participation and examine the human decision basis.",
+  "mobile_title_lines": [
+    "AI Assistance",
+    "Governance"
+  ],
+  "mobile_purpose_lines": [
+    "Record AI participation and",
+    "examine the human decision basis."
+  ],
+  "badges": [
+    {
+      "label": "Status",
+      "value": "Working method",
+      "source": "CITATION.cff",
+      "id": "status"
+    },
+    {
+      "label": "Version",
+      "value": "v1.1.0",
+      "source": "CITATION.cff",
+      "id": "version"
+    },
+    {
+      "label": "License",
+      "value": "Apache-2.0",
+      "source": "LICENSE",
+      "id": "license"
+    }
+  ],
+  "sources": [
+    "CITATION.cff"
+  ],
+  "desktop_title_size": 44
+}

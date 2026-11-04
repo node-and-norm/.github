@@ -1,0 +1,37 @@
+{
+  "title": "Regulated Gate Decision Support",
+  "purpose": "Preserving the reasons and conditions for a decision.",
+  "mobile_title_lines": [
+    "Regulated Gate",
+    "Decision Support"
+  ],
+  "mobile_purpose_lines": [
+    "Preserving the reasons and",
+    "conditions for a decision."
+  ],
+  "sources": [
+    "docs/research-summary.md",
+    "docs/decision-log.md"
+  ],
+  "badges": [
+    {
+      "label": "Status",
+      "value": "Reference implementation",
+      "href": "docs/research-summary.md",
+      "id": "status"
+    },
+    {
+      "label": "Implementation",
+      "value": "2.0.1",
+      "href": "CITATION.cff",
+      "id": "version"
+    },
+    {
+      "label": "Declared license",
+      "value": "Apache-2.0",
+      "href": "LICENSE",
+      "id": "license"
+    }
+  ],
+  "desktop_title_size": 40
+}

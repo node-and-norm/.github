@@ -1,0 +1,26 @@
+{
+  "asset_version": "1.0.0-draft",
+  "config": "projects/rgds-ai-governance/config.json",
+  "input_hashes": {
+    "projects/rgds-ai-governance/config.json": "b67210177c2dfd1eca0c57867d23a5e01527ac07be41d5981bf1332e84f05df6",
+    "tokens.json": "ddb30f6bbffed2fd978b24cd8195365c737337aeea609c40e16dd0d87110fde0",
+    "generate.py": "ac709d59bb4ccdb0d47b413c994a6bb8cabce58fd43c7ec2ad2906398f126a8e",
+    "generate_catalog.py": "99f34b99a90148e5327656cf432b0685d999a8c1f681892ddbf9126f7278b66d"
+  },
+  "source_hashes": {
+    "assets/brand/current/logo.svg": "def26d7e6887ce1c1846ea3929816df9b9c6484f30679642d003724c3df85f55",
+    "assets/brand/current/banner.svg": "178e1018845b43ba22de409d389ee48860163b229ea8fbca2ad164c4d5d28df6"
+  },
+  "files": {
+    "banner-light.svg": "4ddab8bd3348c43295aa2cab0cd77135e542559b6f5d65f7396fb22285c3735e",
+    "banner-mobile-light.svg": "c9e33e29a8e40c95850f12cb1382c23e5a5f5bda2ede0a5be74fbd9235d357ce",
+    "badges/status-light.svg": "aff8c0a4f64a6341005e8eb13be755efa7ef7bc1806efbdcb43436ffb024dcb5",
+    "badges/version-light.svg": "45eda28127b56597f5ed934b5406c67046430df0cd95586f9e863296753127ed",
+    "badges/license-light.svg": "0bbbd949a5ae451a67522379e24968f97bfa5030ab300d5c69b88e272c6e603a",
+    "banner-dark.svg": "d5bd9491ff5c84d4314a0d33426760f3c05ae6a4d0b9b2ae9ad0fa1ea49247e3",
+    "banner-mobile-dark.svg": "41762b9d4430ce3b9588cf362c61294ac4f3a75ecfd3c5388d7f3f00af97cf98",
+    "badges/status-dark.svg": "65d9c9cadbbfc44e43c7fc989714db147591149318d432d29b38a59ef024ac92",
+    "badges/version-dark.svg": "047a49efa007fd9f9928adf0d9e19dd8a7816454a7f1c37114a824fbae098b2d",
+    "badges/license-dark.svg": "19d32f3306119c3c3512ff197fc0ad2de06b74ea188d4398e4ea23dd4b9c4f03"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "asset_version": "1.0.0-draft",
+  "config": "projects/program/config.json",
+  "input_hashes": {
+    "projects/program/config.json": "17707bba1944b54905ac3961c4e543c6177d78b5e3673eb7a8f1f600b2cd78f9",
+    "tokens.json": "ddb30f6bbffed2fd978b24cd8195365c737337aeea609c40e16dd0d87110fde0",
+    "generate.py": "ac709d59bb4ccdb0d47b413c994a6bb8cabce58fd43c7ec2ad2906398f126a8e",
+    "generate_catalog.py": "99f34b99a90148e5327656cf432b0685d999a8c1f681892ddbf9126f7278b66d"
+  },
+  "source_hashes": {
+    "assets/brand/current/logo.svg": "def26d7e6887ce1c1846ea3929816df9b9c6484f30679642d003724c3df85f55",
+    "assets/brand/current/banner.svg": "178e1018845b43ba22de409d389ee48860163b229ea8fbca2ad164c4d5d28df6"
+  },
+  "files": {
+    "banner-light.svg": "95b1a1bf9fcfdba50b70af90c1dfb53f8e6780d6f02093f3bf429a8bc1c0ea8d",
+    "banner-mobile-light.svg": "aa8a62cf83cbf0510f521c62e2a66638cdd0e3a5f686a170adfd6b737c72f107",
+    "banner-dark.svg": "741aa91b29899968c4326118f07fb1d5618eac651ffbf73722c2c81344bd03a6",
+    "banner-mobile-dark.svg": "fba7b454a8a1a0d51dabb5d8ad82164e83efa0a3a58f072f8219b34c3dec65f3"
+  }
+}
