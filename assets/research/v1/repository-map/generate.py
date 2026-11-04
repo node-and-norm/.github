@@ -5,9 +5,11 @@ import html
 import json
 from pathlib import Path
 import re
+import runpy
 import xml.etree.ElementTree as ET
 
 HERE = Path(__file__).resolve().parent
+BRAND = runpy.run_path(str(HERE.parent / 'generate.py'))
 
 
 def relationships():
@@ -40,7 +42,11 @@ def render(mobile=False):
         root_x, root_y, root_w, root_h = 380, 28, 240, 64
         parts.append(f'<path d="M500 92V120H32V553M500 120H357V553M500 120H682V553" fill="none" stroke="{iris}" stroke-width="1.5"/>')
     parts.append(f'<rect x="{root_x}" y="{root_y}" width="{root_w}" height="{root_h}" rx="4" fill="{carbon}" stroke="{citron}" stroke-width="1.5"/>')
-    text(root_x + root_w / 2, root_y + 41, 'Node & Norm', 27, paper, 600, 'middle')
+    logo_x = root_x + (root_w - 210) / 2
+    parts.append('<g id="program-logo" role="img" aria-label="Node and Norm">')
+    parts.append(BRAND['witness'](iris, logo_x - 7, root_y + 7, .5))
+    parts.append(BRAND['wordmark'](paper, iris, logo_x + 40, root_y + 17, .14))
+    parts.append('</g>')
 
     for group in range(3):
         x = 48 if mobile else 54 + group * 325
