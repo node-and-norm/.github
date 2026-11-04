@@ -1,77 +1,109 @@
-<a href="https://nodeandnorm.org/"><img src="https://raw.githubusercontent.com/node-and-norm/.github/main/assets/brand/current/banner.png" alt="node&norm: independent research on AI and practical human control" width="100%"></a>
+<h1>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/node-and-norm/.github/cae1260c05b686a30f51580ae96ec705428c8535/assets/research/v1/projects/program/banner-mobile-dark.svg">
+  <img src="https://raw.githubusercontent.com/node-and-norm/.github/cae1260c05b686a30f51580ae96ec705428c8535/assets/research/v1/projects/program/banner-dark.svg" alt="Node &amp; Norm: Research on human control" width="1000">
+</picture>
+</h1>
 
-# Evidence for practical human control
+Node & Norm examines how people can retain practical control of AI-assisted decisions. The program develops methods for checking those claims against evidence as AI capabilities advance. [Mission](https://nodeandnorm.org/about).
 
-node&norm is an independent research program in AI governance, evaluation, and assurance. It examines practical human control and institutional responsibility: whether people can question AI-assisted decisions, exercise authority, and establish what happened when they intervened.
+[Policy reader: explore the questions](#research-themes) · [Reviewer: inspect evidence and limits](#flagship-repositories) · [Engineer: reproduce the checks](#run-and-verify)
 
-The work translates research into evaluation methods, inspectable evidence records, and candidate operational controls. This GitHub organization holds public specifications, assessment rules, source records, code, tests, and version histories. Each project states what its evidence supports and what remains unresolved.
+## At a glance
 
-[Research agenda](https://nodeandnorm.org/research-agenda/) · [Research overview](https://nodeandnorm.org/research) · [Governance Explorer](https://nodeandnorm.org/governance-map)
+| | Program entry |
+| :--- | :--- |
+| Purpose | Examine human authority, judgment and accountability through explicit research questions. [Mission](https://nodeandnorm.org/about) |
+| Status | Independent research with project-specific evidence and open questions. [Research agenda](https://nodeandnorm.org/research-agenda) |
+| Evidence type | Documentary studies, conceptual methods, software checks and labelled demonstrations. [Project directory](#flagship-repositories) |
+| Version | Each repository preserves its own version history. [Version directory](#releases-and-citation-identities) |
+| License | Read each repository's license and source-specific rights record. [Project directory](#flagship-repositories) |
+| Cite | Cite the specific work and version used. [Citation route](#cite-the-work-you-use) |
 
-## Current focus: revocation in delegated AI workflows
+## Research themes
 
-Does withdrawing permission prevent further protected actions? Initial deterministic measurement qualification is complete in a controlled local test using scripted workers and a trusted database. This qualifies a bounded testing instrument; autonomous-agent effectiveness, broader control effectiveness, and novelty remain unestablished.
+### Examine practical human control
 
-The next design candidate is a checkpointed delegated workflow using LangGraph. The proposed question is whether resumed or retried work can create a new protected effect after authority has been withdrawn. A specific workflow, matching implementation, and protocol remain to be selected; no framework-based experiment has run. The next phase requires a justified research question, matched comparisons, and a frozen protocol before execution.
+What evidence shows that a person could understand, question or change a consequential decision? [Trust, Autonomy, and Evidence](https://github.com/node-and-norm/trust-autonomy-evidence), [Human Influence Telemetry](https://github.com/node-and-norm/human-influence-telemetry) and the [Control Evidence Corpus](https://github.com/node-and-norm/node-norm-control-evidence) examine different parts of that question.
 
-For this test, withdrawal takes effect when the authority change is durably committed in the same ordering as protected changes. Pressing stop or receiving an acknowledgment alone does not establish that boundary.
+### Preserve the grounds for decisions
 
-Revocation is the sole active study direction. Evidence trust and oversight at scale remain deferred; completing a milestone does not automatically begin either study. The longer-term agenda extends toward frontier AI assurance, with AGI readiness as a longer-term purpose.
+How can a record connect evidence, authority and unresolved conditions? [Governed Decision Intelligence](https://github.com/node-and-norm/governed-decision-intelligence) and [Regulated Gate Decision Support](https://github.com/node-and-norm/rgds) develop decision structures. The [Catholic Doctrinal Fidelity Index](https://github.com/node-and-norm/cdfi-framework) examines scoring and review within a specific domain.
 
-[Read the study, methods and limitations](https://nodeandnorm.org/research-agenda/#current-study) · [Next design task](https://nodeandnorm.org/research-agenda/#next-decisions)
+### Support inquiry and review
 
-The study materials remain private. The public agenda communicates the approved scope and status.
+The supporting repositories explore [research-to-decision workflows](https://github.com/node-and-norm/applied-ai-research-translator), [regulated drug-development decisions](https://github.com/node-and-norm/rgds-independent-study) and [AI participation in human decisions](https://github.com/node-and-norm/rgds-ai-governance). Each retains its own method, evidence boundary and revision history.
 
-## Public methods and development infrastructure
+## Repository map
 
-| Project | Technical materials to inspect | Research boundary |
+This directory groups repositories by their stated purpose. Its connections describe research roles. Each project's evidence requires separate assessment. [Control methods](https://github.com/node-and-norm/trust-autonomy-evidence), [decision structures](https://github.com/node-and-norm/governed-decision-intelligence), [domain evaluation](https://github.com/node-and-norm/cdfi-framework).
+
+```mermaid
+flowchart LR
+  accTitle: Node and Norm repository directory
+  accDescr: The program connects three control-evidence projects, three decision and evaluation projects, and three supporting projects. Each edge names the repository's research role.
+  N["Node & Norm"] -->|examines practical control| T["Trust, Autonomy,<br/>and Evidence"]
+  N -->|assesses human influence| H["Human Influence<br/>Telemetry"]
+  N -->|develops event reconstruction| C["Control Evidence<br/>Corpus"]
+  N -->|specifies decision records| G["Governed Decision<br/>Intelligence"]
+  N -->|records conditional decisions| R["Regulated Gate<br/>Decision Support"]
+  N -->|develops domain scoring| F["Catholic Doctrinal<br/>Fidelity Index"]
+  N -->|structures research artifacts| A["Applied AI Research<br/>Translator"]
+  N -->|explores decision records| S["RGDS Independent<br/>Study"]
+  N -->|examines AI participation| I["AI Assistance<br/>Governance"]
+```
+
+The text equivalent is the three research themes above and the project tables below. A link between projects leaves cross-validation, integration and institutional effectiveness to their own evidence. [Program approach](https://nodeandnorm.org/about).
+
+## Flagship repositories
+
+| Repository | Contribution | Evidence boundary |
 | :--- | :--- | :--- |
-| [Trust, Autonomy, and Evidence (TAE)](https://github.com/node-and-norm/trust-autonomy-evidence) | Evidence architecture, claim-to-source records, deterministic assessment logic, historical cases, mutation controls, and archived Jev experiment results. Start with [release v0.18.0](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0) and the [reproducibility guide](https://github.com/node-and-norm/trust-autonomy-evidence/blob/main/docs/REPRODUCIBILITY.md). | Methods demonstration and initial Jev research phase closed 16 October 2026. Selected historical cases and synthetic experiments leave independent reliability, field validity, contemporary transfer, and human time/quality benefits unestablished. |
-| [Human Influence Telemetry (HIT)](https://github.com/node-and-norm/human-influence-telemetry) | Documentary assessment contract, scoring engine, conformance fixtures, reviewer materials, and claim-evidence gates. Start with [release v0.6.7](https://github.com/node-and-norm/human-influence-telemetry/releases/tag/v0.6.7), the [closeout plan](https://github.com/node-and-norm/human-influence-telemetry/blob/main/docs/closeout-plan.md) and [research status](https://github.com/node-and-norm/human-influence-telemetry/blob/main/RESEARCH.md). | Maintenance after [verified solo-development closeout on 17 October 2026](https://github.com/node-and-norm/human-influence-telemetry/blob/main/research/strengthening/maintenance-receipt.json). Manuscript work is deferred; v1.0 readiness, the independent-human implementation audit and current-contract replication remain unresolved. |
-| [Control Evidence Corpus (CEC)](https://github.com/node-and-norm/node-norm-control-evidence) | Evidence-linked event records, schemas, synthetic dossiers, source reconnaissance, and reproducible evaluation infrastructure. Start with the [research brief](https://github.com/node-and-norm/node-norm-control-evidence/blob/main/research/README.md). | Development infrastructure: three synthetic demonstrations, zero independently coded empirical events, and no approved corpus release. Independent reliability and construct validation remain open. |
-| [Governed Decision Intelligence (GDI)](https://github.com/node-and-norm/governed-decision-intelligence) | Governed Decision Record schema, gate classification, worked examples, and reference implementation. Start with [validation and reproducibility](https://github.com/node-and-norm/governed-decision-intelligence/blob/main/docs/validation-and-reproducibility.md); the [ScopeBlind contribution and review record](https://github.com/node-and-norm/governed-decision-intelligence/blob/main/docs/scopeblind-contribution-review.md) separates contribution and maintainer review credits. | Open specification and reference implementation. ScopeBlind PR #7 remains open and unmerged as of October 31, 2026. Independent field validation and external conformance acceptance remain open. |
-| [Catholic Doctrinal Fidelity Index (CDFI)](https://github.com/node-and-norm/cdfi-framework) | Domain-specific evaluation governance, scoring configuration, cap rules, judge-reliability protocols, and traceability to seven AI safety publications. | Evolving. Scoring-contract reconciliation and qualified human theological validation remain open. SAICRED retains its separate project leadership and publication authority. |
-| [Regulated Gate Decision Support (RGDS)](https://github.com/node-and-norm/rgds) | [Decision-log schema](https://github.com/node-and-norm/rgds/blob/main/decision-log/decision-log.schema.json), illustrative records, structural validation, and selected semantic checks for regulated phase gates. | Reference implementation. Reconstruction speed, field effectiveness, and regulatory outcomes remain unestablished. |
+| [Trust, Autonomy, and Evidence](https://github.com/node-and-norm/trust-autonomy-evidence) | A retrospective method for examining practical human control. | Historical source packets and explicit uncertainty; general validity remains open. [Research account](https://github.com/node-and-norm/trust-autonomy-evidence/blob/main/RESEARCH_STATUS.md) |
+| [Human Influence Telemetry](https://github.com/node-and-norm/human-influence-telemetry) | A documentary assessment of human authority and its exercise. | A bounded human scoring exercise, development cases and separate AI experiments. [Limits](https://github.com/node-and-norm/human-influence-telemetry/blob/main/LIMITATIONS.md) · [Experiment record](https://github.com/node-and-norm/human-influence-telemetry/blob/main/research/strengthening/passage-report.md) |
+| [Governed Decision Intelligence](https://github.com/node-and-norm/governed-decision-intelligence) | A specification and reference implementation for decision records. | Fixtures and software checks leave deployment effectiveness open. [Claim register](https://github.com/node-and-norm/governed-decision-intelligence/blob/main/RESEARCH.md) |
+| [Control Evidence Corpus](https://github.com/node-and-norm/node-norm-control-evidence) | Infrastructure for reconstructing control opportunities. | Synthetic demonstrations; the independent empirical pilot remains pending. [Research brief](https://github.com/node-and-norm/node-norm-control-evidence/blob/main/research/README.md) |
+| [Regulated Gate Decision Support](https://github.com/node-and-norm/rgds) | Decision records for permission, conditions and follow-up. | Authored examples and selected validation rules; evaluation remains prospective. [Evaluation plan](https://github.com/node-and-norm/rgds/blob/main/evaluation/evaluation-plan.md) |
+| [Catholic Doctrinal Fidelity Index](https://github.com/node-and-norm/cdfi-framework) | Evaluation rules and review procedures within SAICRED. | Provisional scoring; contract reconciliation and human theological review remain open. [Research account](https://github.com/node-and-norm/cdfi-framework/blob/main/docs/research-summary.md) |
 
-The [RGDS independent study](https://node-and-norm.github.io/rgds-independent-study/) provides the accompanying exploratory account; its [repository](https://github.com/node-and-norm/rgds-independent-study) preserves the study materials.
+## Supporting repositories
 
-## Forthcoming publication and earlier development
+| Repository | Reader's entry |
+| :--- | :--- |
+| [Applied AI Research Translator](https://github.com/node-and-norm/applied-ai-research-translator) | Template-based research artifacts, retained demonstrations and explicit limits. [Limitations](https://github.com/node-and-norm/applied-ai-research-translator/blob/main/LIMITATIONS.md) |
+| [RGDS Independent Study](https://github.com/node-and-norm/rgds-independent-study) | An exploratory study of decision records in regulated drug development. [Study entry](https://github.com/node-and-norm/rgds-independent-study/blob/main/README.md) |
+| [AI Assistance Governance](https://github.com/node-and-norm/rgds-ai-governance) | A working method for recording AI participation and examining the human decision basis. [Method entry](https://github.com/node-and-norm/rgds-ai-governance/blob/main/README.md) |
 
-| Work | Public introduction | Current status |
+## Releases and citation identities
+
+These entries identify retained versions. Later repository commits can contain work outside a release. Read the linked citation record before reusing a result.
+
+| Work | Retained version | Citation record |
 | :--- | :--- | :--- |
-| *Poenitentia Institutionum* | Prudence, institutional responsibility, and repair in AI-assisted decisions. [Read the chapter introduction](https://nodeandnorm.org/research/institutional-responsibility-repair/) · [Publisher’s book page](https://enroutebooksandmedia.com/aifromacatholicperspective/). | Forthcoming chapter in *AI from a Catholic Perspective*, edited by Dr. Jane F. Adolphe and Dr. Łukasz Mirosław. Manuscript repository private; publication date and book chapter number remain unconfirmed. |
-| Approval Evidence Sufficiency | Research into what approval records can establish about a proposed action, and when missing evidence leaves the conclusion unresolved. [Public research overview](https://nodeandnorm.org/research#approval-evidence-sufficiency). | Earlier development work; further testing paused. Repository private. Public materials and a publication date have not been announced. |
+| Trust, Autonomy, and Evidence | [Software v0.18.0](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0) | [Software and preferred paper citation](https://github.com/node-and-norm/trust-autonomy-evidence/blob/main/CITATION.cff) |
+| Human Influence Telemetry | [Software v0.6.7](https://github.com/node-and-norm/human-influence-telemetry/releases/tag/v0.6.7) | [Citation metadata](https://github.com/node-and-norm/human-influence-telemetry/blob/main/CITATION.cff) |
+| Governed Decision Intelligence | [v3.0](https://github.com/node-and-norm/governed-decision-intelligence/releases/tag/v3.0) | [Citation metadata](https://github.com/node-and-norm/governed-decision-intelligence/blob/main/CITATION.cff) |
+| Control Evidence Corpus | [Development v0.3.0-dev](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.3.0-dev) | [Infrastructure citation](https://github.com/node-and-norm/node-norm-control-evidence/blob/main/CITATION.cff) |
+| Regulated Gate Decision Support | [Implementation v2.0.1](https://github.com/node-and-norm/rgds/releases/tag/v2.0.1) | [Implementation citation](https://github.com/node-and-norm/rgds/blob/main/CITATION.cff) |
+| Catholic Doctrinal Fidelity Index | [Archived v1.5](https://github.com/node-and-norm/cdfi-framework/releases/tag/v1.5) | [Archived citation](https://github.com/node-and-norm/cdfi-framework/blob/main/CITATION.cff) |
 
-These public introductions preserve each work’s distinct status. They do not provide access to private research files or the full chapter.
+## Run and verify
 
-## Reproduce a result
+Choose a repository, record the version or commit, and follow its reproduction instructions. The flagship READMEs provide an engineer's entry to exact commands and expected outputs. Preserve the stated environment and distinguish software checks from source review. [TAE reproduction](https://github.com/node-and-norm/trust-autonomy-evidence), [HIT validation](https://github.com/node-and-norm/human-influence-telemetry), [CEC reproduction](https://github.com/node-and-norm/node-norm-control-evidence).
 
-1. Read the project's research-status and limitations statements before interpreting its outputs.
-2. Select a tagged release or commit. Record the manuscript, schema, software, and evidence-packet versions separately where the project distinguishes them.
-3. Follow that repository's installation and validation instructions. Retain the command, environment, inputs, and output needed to reproduce a finding.
-4. Inspect negative controls, excluded material, missing evidence, and open exceptions alongside successful checks.
-5. Cite the exact artifact and version. Report a discrepancy through the project's issue or contribution process, with a minimal reproducible example and the affected claim.
+## Cite the work you use
 
-Passing software checks establishes the behavior tested under the specified inputs. Claims about source accuracy, reviewer reliability, institutional adoption, or practical benefit require evidence suited to those questions.
+Use the repository's `CITATION.cff` and version-specific citation. When discussing the program as a whole, link the [mission](https://nodeandnorm.org/about), record the access date and identify the particular research artifacts behind your claim. The [project citation records](#releases-and-citation-identities) preserve their separate authorship and publication identities.
 
-## Supporting methods
+## Research practice
 
-[AI Assistance Governance](https://github.com/node-and-norm/rgds-ai-governance) develops a working profile for bounded AI participation, assigned human authority, and dependency assessment. [Applied AI Research Translator](https://github.com/node-and-norm/applied-ai-research-translator) provides a governed workflow from research inputs to traceable claims, bounded tasks, and human-reviewed decision records.
+AI roles, human verification and unresolved checks require project-specific disclosure. Author acceptance and successful software checks have distinct evidentiary scopes. Read the [program's AI-use statement](https://nodeandnorm.org/about/research-integrity/#ai-use) alongside each repository's disclosure and source-review records.
 
-Each repository maintains its own methods, releases, attribution, license, and correction process. The organization directory is a route into those records; project-level status statements define the scope of their claims.
+[Research agenda](https://nodeandnorm.org/research-agenda) · [Research integrity](https://nodeandnorm.org/about/research-integrity/) · [ORCID](https://orcid.org/0009-0001-8121-2878)
 
-## Research and publication
+<details>
+<summary>Prior organization entry and shared design assets</summary>
 
-Researcher: [Mark Julius Banasihan](https://github.com/mj3b). Project repositories distinguish research authorship, technical contributions, review, and team membership.
+The [complete prior profile](https://github.com/node-and-norm/.github/blob/51ad7bf38d11894a47da5f7f8446b9c2ea290f8b/profile/README.md) preserves the entry at [audit commit 51ad7bf](https://github.com/node-and-norm/.github/tree/51ad7bf38d11894a47da5f7f8446b9c2ea290f8b). The [shared design guide](https://github.com/node-and-norm/.github/blob/cae1260c05b686a30f51580ae96ec705428c8535/assets/research/v1/README.md) documents the palette, banners, badges and reproducible asset sources.
 
-TAE's methods demonstration and initial Jev research phase closed on 16 October 2026 with [release v0.18.0](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0). The [closeout record](https://github.com/node-and-norm/trust-autonomy-evidence/blob/main/docs/research-phase-closeout-2026-10-16.md) preserves the historical findings, separately approved conditional reassessment, completed checks, and research limitations. Reproducibility checks and AI-assisted review do not establish independent scientific validation.
-
-The approved preprint [*From Formal Authority to Practical Human Control*](https://doi.org/10.5281/zenodo.23423847), revised 10 October 2026 and archived 16 October, and the [v0.18.0 software archive](https://doi.org/10.5281/zenodo.23423967) have separate DOIs. The manuscript has not undergone peer review. arXiv submission `7973196` remains **on hold**, as the author confirmed from the authenticated account on 16 October 2026.
-
-CEC retains its own development status, evidence rules, corpus-release gates, and research claims. See its [integration contract](https://github.com/node-and-norm/node-norm-control-evidence/blob/main/docs/reference/INTEGRATION_CONTRACT.md) for any future use of its records by TAE or other projects.
-
-The [About page](https://nodeandnorm.org/about.html) describes the research purpose and intellectual influences, including Daniel Kahneman's work on judgment and Stuart Russell's work on human control. Those influences frame the questions; the repositories carry the methods and evidence used to examine them.
-
-Researchers, engineers, and organizational leaders can help examine a defined control claim, contribute a documented workflow, or identify evidence a test would need. The [agenda’s intended outputs and routes to collaboration](https://nodeandnorm.org/research-agenda/#solutions-research) describe that scope.
-
-[Essays](https://nodeandnorm.org/) · [Research agenda](https://nodeandnorm.org/research-agenda/) · [Research overview](https://nodeandnorm.org/research) · [Governance Explorer](https://nodeandnorm.org/governance-map) · [Research integrity](https://nodeandnorm.org/about/research-integrity/) · [Brand assets](https://github.com/node-and-norm/.github/tree/main/assets/brand/current)
+</details>
