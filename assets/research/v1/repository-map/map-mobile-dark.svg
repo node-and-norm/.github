@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="1570" viewBox="0 0 400 1570" role="img" aria-labelledby="title desc">
+<title id="title">Node &amp; Norm repository map</title>
+<desc id="desc">Nine labeled connections from Node &amp; Norm, grouped under the three research themes. examines practical control: Trust, Autonomy, and Evidence; assesses human influence: Human Influence Telemetry; develops event reconstruction: Control Evidence Corpus; specifies decision records: Governed Decision Intelligence; records conditional decisions: Regulated Gate Decision Support; develops domain scoring: Catholic Doctrinal Fidelity Index; structures research artifacts: Applied AI Research Translator; explores decision records: RGDS Independent Study; examines AI participation: AI Assistance Governance.</desc>
+<rect width="400" height="1570" fill="#191820"/>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#B5AFFF"/></marker></defs>
+<path d="M48 55H24V1486" fill="none" stroke="#B5AFFF" stroke-width="1.5"/>
+<rect x="48" y="24" width="328" height="62" rx="4" fill="#191820" stroke="#D7F59A" stroke-width="1.5"/>
+<text x="212.0" y="65" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="600" text-anchor="middle">Node &amp; Norm</text>
+<text x="48" y="132" fill="#B5AFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Examine practical</text>
+<text x="48" y="158" fill="#B5AFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">human control</text>
+<g id="repository-T"><path d="M24 238.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="184" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="211" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">examines practical control</text>
+<text x="64" y="244" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Trust, Autonomy,</text>
+<text x="64" y="270" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">and Evidence</text>
+</g>
+<g id="repository-H"><path d="M24 364.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="310" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="337" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">assesses human influence</text>
+<text x="64" y="370" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Human Influence</text>
+<text x="64" y="396" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Telemetry</text>
+</g>
+<g id="repository-C"><path d="M24 490.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="436" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="463" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">develops event reconstruction</text>
+<text x="64" y="496" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Control Evidence</text>
+<text x="64" y="522" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Corpus</text>
+</g>
+<text x="48" y="618" fill="#B5AFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Preserve the grounds</text>
+<text x="48" y="644" fill="#B5AFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">for decisions</text>
+<g id="repository-G"><path d="M24 724.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="670" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="697" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">specifies decision records</text>
+<text x="64" y="730" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Governed Decision</text>
+<text x="64" y="756" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Intelligence</text>
+</g>
+<g id="repository-R"><path d="M24 850.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="796" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="823" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">records conditional decisions</text>
+<text x="64" y="856" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Regulated Gate</text>
+<text x="64" y="882" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Decision Support</text>
+</g>
+<g id="repository-F"><path d="M24 976.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="922" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="949" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">develops domain scoring</text>
+<text x="64" y="982" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Catholic Doctrinal</text>
+<text x="64" y="1008" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Fidelity Index</text>
+</g>
+<text x="48" y="1104" fill="#B5AFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Support inquiry</text>
+<text x="48" y="1130" fill="#B5AFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">and review</text>
+<g id="repository-A"><path d="M24 1210.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="1156" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="1183" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">structures research artifacts</text>
+<text x="64" y="1216" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Applied AI Research</text>
+<text x="64" y="1242" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Translator</text>
+</g>
+<g id="repository-S"><path d="M24 1336.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="1282" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="1309" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">explores decision records</text>
+<text x="64" y="1342" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">RGDS Independent</text>
+<text x="64" y="1368" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Study</text>
+</g>
+<g id="repository-I"><path d="M24 1462.0H48" fill="none" stroke="#B5AFFF" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="48" y="1408" width="328" height="108" rx="4" fill="#191820" stroke="#B5AFFF" stroke-width="1"/>
+<text x="64" y="1435" fill="#D7F59A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">examines AI participation</text>
+<text x="64" y="1468" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">AI Assistance</text>
+<text x="64" y="1494" fill="#F7F7F4" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" text-anchor="start">Governance</text>
+</g>
+</svg>
