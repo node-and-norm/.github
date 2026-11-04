@@ -2,28 +2,26 @@
 
 The reference banner gives each research entry a title, purpose and Node & Norm identity. The [generator](generate.py) uses the existing [Witness mark](../../brand/current/logo.svg) and [outlined wordmark](../../brand/current/banner.svg). Their shapes remain unchanged. [Palette tokens](tokens.json) supply the theme colors.
 
-This draft contains the TAE reference assets. The [project configuration](tae.json) links the sources for its title, purpose and badge values. The organization profile and existing brand files retain their current form.
+The catalog contains the TAE reference and the program's repository banners. The [TAE configuration](tae.json) and [project configurations](projects/) link the sources for titles, purposes and badge values. Existing brand shapes and license files retain their current form. The research entries select dark assets in both browser themes.
 
 ## Banner
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="tae-banner-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="tae-banner-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="tae-banner-dark.svg">
-  <img src="tae-banner-light.svg" alt="Trust, Autonomy, and Evidence. Tracing the evidence for practical human control. Node & Norm." width="1000">
+  <source media="(max-width: 600px)" srcset="tae-banner-mobile-dark.svg">
+  <img src="tae-banner-dark.svg" alt="Trust, Autonomy, and Evidence. Tracing the evidence for practical human control. Node & Norm." width="1000">
 </picture>
 
-The [desktop configuration](tokens.json) uses a 1000 by 230 view box. The mobile version uses a 400 by 260 view box and explicit line breaks. Keep the title and purpose in ordinary README text as well.
+The [desktop configuration](tokens.json) uses a 1000 by 230 view box. The TAE mobile version uses a 400 by 260 view box and explicit line breaks. Catalog mobile banners grow when the title needs extra lines. The banner supplies the visible title. Wrap it in a level-one heading and use the research title as its image alternative text. Keep the research question and contribution in ordinary text beneath it.
 
 Use the following markup when the versioned asset directory is local to the README. Preserve its source commit and [file hashes](manifest.json) when copying the bytes into another repository. Shared assets should change through a reviewed version update.
 
 ```html
+<h1>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/research/v1/tae-banner-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/research/v1/tae-banner-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/research/v1/tae-banner-dark.svg">
-  <img src="assets/research/v1/tae-banner-light.svg" alt="Trust, Autonomy, and Evidence. Tracing the evidence for practical human control. Node & Norm." width="1000">
+  <source media="(max-width: 600px)" srcset="assets/research/v1/banner-mobile-dark.svg">
+  <img src="assets/research/v1/banner-dark.svg" alt="Research title" width="1000">
 </picture>
+</h1>
 ```
 
 ## Color and type
@@ -41,7 +39,7 @@ The title and purpose use Arial with Helvetica and sans-serif fallbacks. The [wo
 
 ## Badges
 
-Use a small row of metadata badges beneath the research question. Each badge must link to the source that establishes its value. The [TAE configuration](tae.json) supplies four examples:
+Use a small row of metadata badges beneath the banner. Each badge must link to the source that establishes its value. The [TAE configuration](tae.json) supplies four examples:
 
 | Label | Value | Meaning |
 | --- | --- | --- |
@@ -54,7 +52,7 @@ Each label has light and dark SVG variants in [badges](badges). A badge records 
 
 ## README hierarchy
 
-Use one level-one research title in accessible text. Use level-two headings for the research question, reader paths, method, evidence, known limits, reproduction and citation. Use level-three headings only when a section needs subdivision. Give long technical records a descriptive details label. Preserve their source and version identities.
+Use the banner as the single accessible level-one research title. A separate visible title would repeat its content. Use level-two headings for the research question, reader paths, method, evidence, known limits, reproduction and citation. Use level-three headings only when a section needs subdivision. Give long technical records a descriptive details label. Preserve their source and version identities.
 
 A method diagram should have at most eleven nodes. Label every edge and include an accessible title and description. Give the same reading path in prose. Link every factual statement to the record that supports it.
 
@@ -75,3 +73,14 @@ Expected output:
 ```
 
 The check parses each generated SVG and requires a title, description and image role. Inspect light, dark and mobile rendering before approving a repository integration.
+
+## Repository catalog
+
+The [catalog generator](generate_catalog.py) reads each [project configuration](projects/) and reuses the same tokens and brand sources. Configurations record badge sources and explicit mobile line breaks. Every generated asset has an accessible title and description.
+
+```sh
+python3 assets/research/v1/generate_catalog.py
+python3 assets/research/v1/generate_catalog.py --check
+```
+
+For the nine catalog entries in this revision, the expected outputs are `93 catalog outputs written.` and `93 catalog outputs match.` The original TAE generator remains separately reproducible. Light variants remain available in the catalog. The current integration uses Carbon backgrounds, paper text, iris accents and citron markers in both browser themes.

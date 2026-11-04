@@ -1,0 +1,36 @@
+{
+  "title": "RGDS Independent Study",
+  "purpose": "Explore decision records in regulated drug development.",
+  "mobile_title_lines": [
+    "RGDS",
+    "Independent Study"
+  ],
+  "mobile_purpose_lines": [
+    "Explore decision records in",
+    "regulated drug development."
+  ],
+  "badges": [
+    {
+      "label": "Status",
+      "value": "Exploratory study",
+      "source": "docs/current-review.md",
+      "id": "status"
+    },
+    {
+      "label": "Version",
+      "value": "v1.4",
+      "source": "CITATION.cff",
+      "id": "version"
+    },
+    {
+      "label": "License",
+      "value": "Apache-2.0",
+      "source": "LICENSE",
+      "id": "license"
+    }
+  ],
+  "sources": [
+    "README-2026-11-03.md"
+  ],
+  "desktop_title_size": 44
+}
