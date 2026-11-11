@@ -14,6 +14,10 @@ Research on whether claims of human control over AI-assisted decisions can be ch
   <img src="https://raw.githubusercontent.com/node-and-norm/.github/main/profile/assets/program-structure.svg" alt="Program structure: a current revocation study alongside documentary methods, decision-record specifications and domain research. Each has its own evidence limits." width="1000">
 </picture>
 
+## Current research focus
+
+Node & Norm’s active research is focused on revocation in delegated AI workflows: when permission is withdrawn, does further protected action stop? Further research and development on the other projects is paused. Their published methods, code and evidence remain available, with findings and limitations preserved.
+
 ## Start here
 
 | You want to | Go to |
