@@ -9,7 +9,7 @@ Use the stacked name for square profiles and the horizontal wordmark in wider sp
 | [Organization banner, PNG](current/banner.png) | The GitHub README banner carries the name, “Independent research on human control in AI,” and the large iris ampersand. |
 | [Banner for a stacked logo, PNG](current/banner-stacked.png) | Use where a company avatar overlaps the left edge of the cover. The line of text sits beside the ampersand on the right. |
 
-The [study README banners](../research/v2/) pair the horizontal website wordmark with each study’s title and subtitle. Each study has a wide banner and a mobile version. Rebuild or verify them with the [banner generator](../research/v2/generate.py).
+The [study README banners](../research/v2/) carry each study’s title and subtitle beneath the website wordmark. The oversized iris ampersand sits at the right edge, moving to the upper right on mobile to give the title a full line. Each study has a wide banner and a mobile version. Rebuild or verify them with the [banner generator](../research/v2/generate.py).
 
 Both banners retain the supplied 4200 × 700 PNG artwork. The [SVG banner](current/banner.svg) embeds the same PNG as the GitHub banner so existing image links continue to work. The [current manifest](current/manifest.json) records the source and SHA-256 checksum of each artwork file.
 
