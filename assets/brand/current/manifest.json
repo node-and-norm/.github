@@ -1,13 +1,26 @@
 {
-  "updated": "2026-09-26",
-  "source": "Owner-approved banner and website identity",
-  "banner_sha256": "7615fccfc2fae112bf01b9133235a4971cfce3d026265eca55b28742bc406b3e",
-  "wordmark": "Space Grotesk; letters 500, ampersand 400; outlined vector glyphs; proportional website spacing",
+  "updated": "2026-11-24",
+  "source": "Company banner PNGs supplied by the owner. Stacked name and horizontal wordmarks from the website identity kit.",
+  "identity_page": "https://nodeandnorm.org/visual-identity",
+  "wordmark": "Outlined website wordmark with an iris ampersand.",
+  "banner_sha256": "9127e290051e4e2bdc907c880b2f25e968d9e3efd9e0a790c66e56bea036cc8f",
+  "origins": {
+    "banner.png": "company-cover.png (owner-supplied GitHub export)",
+    "banner-stacked.png": "company-cover-stacked.png (owner-supplied export)",
+    "banner.svg": "SVG wrapper embedding the exact banner.png bytes",
+    "logo.png": "https://nodeandnorm.org/assets/brand/stacked-name.png",
+    "logo.svg": "https://nodeandnorm.org/assets/brand/stacked-name.svg",
+    "wordmark-light.svg": "https://nodeandnorm.org/assets/brand/wordmark-light.svg",
+    "wordmark-dark.svg": "https://nodeandnorm.org/assets/brand/wordmark-dark.svg"
+  },
   "files": {
     "SPACE-GROTESK-LICENSE.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
-    "banner.png": "7615fccfc2fae112bf01b9133235a4971cfce3d026265eca55b28742bc406b3e",
-    "banner.svg": "178e1018845b43ba22de409d389ee48860163b229ea8fbca2ad164c4d5d28df6",
-    "logo.png": "1388ce2cc02993d436a04fdabad1de3ec52d22396fcb39bd9c2a5270b9e35958",
-    "logo.svg": "def26d7e6887ce1c1846ea3929816df9b9c6484f30679642d003724c3df85f55"
+    "banner-stacked.png": "48f1918a903811bff344f396d6f2b97956865a733fbbcce8921bcf32fbf44b6e",
+    "banner.png": "9127e290051e4e2bdc907c880b2f25e968d9e3efd9e0a790c66e56bea036cc8f",
+    "banner.svg": "ac1d2f2118c9b8ecf34c49952a724bb7149629110172f8d7c3f459dae535c0e4",
+    "logo.png": "128a0a58613411b6393288ec70a141c8b961c5b267410a2f20bb23b9ac7bfd49",
+    "logo.svg": "6983b603510ef851b9dbeee1aa43f2ac54daeca7aa28d41677b7380a89786cf2",
+    "wordmark-dark.svg": "0ae2dc80909614ae6e3a116da9eec70d2df416e758b359ff68d4a2c17df9c535",
+    "wordmark-light.svg": "3b07144658e059d342a03d22b97a7702d73d715e980057fbfadd1d7ddb17adee"
   }
 }

@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
+ARTWORK = HERE / "source-artwork"
 NS = "{http://www.w3.org/2000/svg}"
 
 
@@ -17,8 +18,13 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def artwork_hashes() -> dict[str, str]:
+    sources = [ARTWORK / "logo.svg", ARTWORK / "banner.svg"]
+    return {p.relative_to(ROOT).as_posix(): sha256(p) for p in sources}
+
+
 def wordmark(text_color: str, accent: str, x: int, y: int, scale: float) -> str:
-    source = ET.parse(ROOT / "assets/brand/current/banner.svg").getroot()
+    source = ET.parse(ARTWORK / "banner.svg").getroot()
     paths = []
     for el in source.findall(f"{NS}path"):
         color = accent if el.attrib["fill"].lower() == "#b5afff" else text_color
@@ -29,7 +35,7 @@ def wordmark(text_color: str, accent: str, x: int, y: int, scale: float) -> str:
 
 
 def witness(accent: str, x: int, y: int, scale: float) -> str:
-    source = ET.parse(ROOT / "assets/brand/current/logo.svg").getroot()
+    source = ET.parse(ARTWORK / "logo.svg").getroot()
     shape = source.find(f"{NS}g/{NS}path").attrib["d"]
     return (f'<g aria-hidden="true" transform="translate({x} {y}) scale({scale})" '
             f'fill="none" stroke="{accent}" stroke-width="7" stroke-linecap="square">'
@@ -124,7 +130,7 @@ def outputs() -> dict[str, bytes]:
     result['contrast.json'] = (json.dumps(checks, indent=2) + '\n').encode()
     manifest = {'asset_version': tokens['asset_version'], 'config': 'tae.json',
                 'inputs': {name: sha256(HERE / name) for name in ('tokens.json', 'tae.json', 'generate.py')},
-                'sources': {name: sha256(ROOT / name) for name in ('assets/brand/current/logo.svg', 'assets/brand/current/banner.svg')},
+                'sources': artwork_hashes(),
                 'files': {name: hashlib.sha256(data).hexdigest() for name, data in sorted(result.items())}}
     result['manifest.json'] = (json.dumps(manifest, indent=2) + '\n').encode()
     return result

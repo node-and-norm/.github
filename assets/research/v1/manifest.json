@@ -4,11 +4,11 @@
   "inputs": {
     "tokens.json": "ddb30f6bbffed2fd978b24cd8195365c737337aeea609c40e16dd0d87110fde0",
     "tae.json": "32db8c8d089ab82ea0d994b7f5d7b191531640fffdf56618a6003a348f91d01a",
-    "generate.py": "ac709d59bb4ccdb0d47b413c994a6bb8cabce58fd43c7ec2ad2906398f126a8e"
+    "generate.py": "1d994846e15093e7f245513ae8c72a757dad91500f0048478b43634ae371a756"
   },
   "sources": {
-    "assets/brand/current/logo.svg": "def26d7e6887ce1c1846ea3929816df9b9c6484f30679642d003724c3df85f55",
-    "assets/brand/current/banner.svg": "178e1018845b43ba22de409d389ee48860163b229ea8fbca2ad164c4d5d28df6"
+    "assets/research/v1/source-artwork/logo.svg": "def26d7e6887ce1c1846ea3929816df9b9c6484f30679642d003724c3df85f55",
+    "assets/research/v1/source-artwork/banner.svg": "178e1018845b43ba22de409d389ee48860163b229ea8fbca2ad164c4d5d28df6"
   },
   "files": {
     "badges/tae-license-dark.svg": "722ee58ce079aeae3e00b26a369293926c87e1004033922e2206a6ad47e7d487",

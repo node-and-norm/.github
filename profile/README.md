@@ -1,35 +1,30 @@
-<h1>
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/node-and-norm/.github/cae1260c05b686a30f51580ae96ec705428c8535/assets/research/v1/projects/program/banner-mobile-dark.svg">
-  <img src="https://raw.githubusercontent.com/node-and-norm/.github/cae1260c05b686a30f51580ae96ec705428c8535/assets/research/v1/projects/program/banner-dark.svg" alt="Node &amp; Norm: Research on human control" width="1000">
-</picture>
-</h1>
+<h1><img src="https://raw.githubusercontent.com/node-and-norm/.github/main/assets/brand/current/banner.png" alt="Node &amp; Norm — Independent research on human control in AI" width="1000"></h1>
 
-Research on whether claims of human control over AI-assisted decisions can be checked.
+Node & Norm studies whether people can change the course of an AI-assisted decision and what evidence shows their intervention worked. Across eight projects, the program examines who can act, what the system does next and what an institution can explain to the people affected. [About the program](https://nodeandnorm.org/about#mission)
 
-> **The question this program asks.** When an AI-assisted decision is said to remain under human control, what evidence shows that a person could intervene, and that the evaluation would detect a control failure?
+## Featured study
+
+In two test scenarios, someone asked for work to stop and received no reply. In one, permission had ended and the action was denied. In the other, the request never arrived and the action went ahead. The record at the destination showed whether the action had happened.
+
+The Revocation study used scripted workers and one local database. The November 24 closeout examined the saved records from six schedules run two ways. Further work on the other seven projects remains paused. [Read Essay 01](https://nodeandnorm.org/research/revocation/essay/) · [Explore the public study repository](https://github.com/node-and-norm/revocation-delegated-workflows)
 
 <picture>
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/node-and-norm/.github/main/profile/assets/program-structure-mobile.svg">
-  <img src="https://raw.githubusercontent.com/node-and-norm/.github/main/profile/assets/program-structure.svg" alt="Program structure: a current revocation study alongside documentary methods, decision-record specifications and domain research. Each has its own evidence limits." width="1000">
+  <img src="https://raw.githubusercontent.com/node-and-norm/.github/main/profile/assets/program-structure.svg" alt="The program includes the completed local Revocation study, documentary methods, decision records and domain research. Each project has its own evidence limits." width="1000">
 </picture>
-
-## Current research focus
-
-Node & Norm’s active research is focused on revocation in delegated AI workflows: when permission is withdrawn, does further protected action stop? Further research and development on the other projects is paused. Their published methods, code and evidence remain available, with findings and limitations preserved.
 
 ## Start here
 
 | You want to | Go to |
 | :--- | :--- |
-| Understand the current study | Revocation in delegated AI workflows: [public research overview](https://nodeandnorm.org/research). The study repository remains private; no public replication package is offered here. |
+| Understand the Revocation study | [Read the Revocation essay](https://nodeandnorm.org/research/revocation/essay/), [see the study overview](https://nodeandnorm.org/research/#current-study) or [inspect the code and records](https://github.com/node-and-norm/revocation-delegated-workflows). |
 | Inspect a method or implementation | [Repository directory](#repository-directory), with each project's retained evidence and limits |
 | Read the argument first | [Essays](https://nodeandnorm.org/) and [program purpose](https://nodeandnorm.org/about) |
 | Check how AI contributes | [Research practice](#research-practice) and each repository's disclosure |
 
 ## Where the evidence stops
 
-The [eight-project research overview](https://nodeandnorm.org/research) distinguishes five kinds of evidence. Its recorded counts, checked 11 November 2026, are:
+The [research overview](https://nodeandnorm.org/research/#evidence) records what each of the eight projects can support. The counts below were checked against its project table on November 24, 2026.
 
 | Kind of evidence | Held | Open |
 | :--- | :--- | :--- |
@@ -39,7 +34,7 @@ The [eight-project research overview](https://nodeandnorm.org/research) distingu
 | Independent replication | 0 of 7 | 7 |
 | Effect in a deployed setting | 0 of 8 | 8 |
 
-These counts cover the projects designed to admit each kind of evidence, not the number of GitHub repositories. They include authored demonstrations and bounded software checks where labeled. A held cell does not establish evidence in another column.
+Each denominator counts the projects designed to produce that kind of evidence. The overview identifies which entries are authored demonstrations and which are software checks. Independent replication and effects in deployed settings require evidence of their own.
 
 HIT retains an earlier two-scorer exercise with 7/7 agreement under earlier rules. That is not independent replication under the current rules or evidence of general reliability. Its current candidate protocol prohibits scoring while its release gates remain unresolved.
 
@@ -49,6 +44,7 @@ Each entry preserves its own methods, versions and research boundaries. This pre
 
 | Work | Retained contribution | What remains open |
 | :--- | :--- | :--- |
+| [Revocation in Delegated AI Workflows](https://github.com/node-and-norm/revocation-delegated-workflows) | Six fixed schedules, each run directly and through LangGraph. The requester saw the same silence in two scenarios. The destination recorded an action in one and none in the other. | Independent replication, behavior with live AI agents and performance in deployed systems |
 | [Trust, Autonomy, and Evidence](https://github.com/node-and-norm/trust-autonomy-evidence) | Retrospective reconstruction method; three historical cases, all conditionally Unresolved | Independent reliability, validity and transfer to contemporary AI systems |
 | [Human Influence Telemetry](https://github.com/node-and-norm/human-influence-telemetry) | Documentary scoring method; one preserved scoring exercise under earlier rules; maintenance | Current-protocol approval and independent replication. Candidate-protocol scoring remains prohibited. |
 | [Control Evidence Corpus](https://github.com/node-and-norm/control-evidence-corpus) | Development record structure; three authored synthetic demonstrations | Empirical pilot, independent coding, validity and reliability |
@@ -59,7 +55,7 @@ Each entry preserves its own methods, versions and research boundaries. This pre
 | [RGDS Independent Study](https://github.com/node-and-norm/rgds-independent-study) | Exploratory study of decision records in regulated drug development | Supporting records for retained quantitative claims and substantive review |
 | [AI Assistance Governance](https://github.com/node-and-norm/rgds-ai-governance) | Working method for recording AI participation and the human basis for a decision | Empirical field evaluation |
 
-The current revocation study and Poenitentia Institutionum chapter are described in the public research overview; their private repositories are not linked here.
+The [Poenitentia Institutionum chapter](https://nodeandnorm.org/research/#poenitentia) has a public introduction. Its manuscript repository remains private.
 
 ## Review and reuse
 
@@ -69,11 +65,11 @@ For a reproducible software check, record the commit, environment, command and e
 
 ## Releases and citation
 
-
 Cite the specific work and version you used. Later commits can contain work outside a release.
 
 | Work | Retained version | Citation record |
 | --- | --- | --- |
+| Revocation in Delegated AI Workflows | [Experimental software archive, November 18, 2026](https://github.com/node-and-norm/revocation-delegated-workflows/releases/tag/research-archive-2026-11-18) | [Software citation](https://github.com/node-and-norm/revocation-delegated-workflows/blob/main/CITATION.cff) · [November 24 study account](https://nodeandnorm.org/research/revocation/essay/) |
 | Trust, Autonomy, and Evidence | [Software v0.18.0](https://github.com/node-and-norm/trust-autonomy-evidence/releases/tag/v0.18.0) | [CITATION.cff](https://github.com/node-and-norm/trust-autonomy-evidence/blob/main/CITATION.cff) |
 | Human Influence Telemetry | [Software v0.6.7](https://github.com/node-and-norm/human-influence-telemetry/releases/tag/v0.6.7) | [CITATION.cff](https://github.com/node-and-norm/human-influence-telemetry/blob/main/CITATION.cff) |
 | Governed Decision Intelligence | [v3.0](https://github.com/node-and-norm/governed-decision-intelligence/releases/tag/v3.0) | [CITATION.cff](https://github.com/node-and-norm/governed-decision-intelligence/blob/main/CITATION.cff) |
@@ -87,4 +83,4 @@ CEC also retains a separate [Catholic-pilot v0.4.1-dev prerelease](https://githu
 
 Mark Julius Banasihan works with AI agents on the program and is accountable for what is published. Read the [AI-use statement](https://nodeandnorm.org/about/research-integrity/#ai-use) alongside each repository's own disclosure and review records. An AI-assisted replay or review within the program is not independent external validation.
 
-[Research integrity](https://nodeandnorm.org/about/research-integrity/) · [ORCID](https://orcid.org/0009-0001-8121-2878) · [Shared visual identity](https://github.com/node-and-norm/.github/blob/main/assets/research/v1/README.md)
+[Research integrity](https://nodeandnorm.org/about/research-integrity/) · [ORCID](https://orcid.org/0009-0001-8121-2878) · [Shared visual identity](https://github.com/node-and-norm/.github/blob/main/assets/brand/README.md)

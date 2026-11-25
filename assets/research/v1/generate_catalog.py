@@ -59,7 +59,7 @@ def outputs(path):
             result[f'badges/{item["id"]}-{theme}.svg'] = catalog_badge(tokens,item,theme).encode()
     receipt = {'asset_version':tokens['asset_version'],'config':str(path.relative_to(HERE)),
         'input_hashes':{str(p.relative_to(HERE)):shared.sha256(p) for p in [path,HERE/'tokens.json',HERE/'generate.py',HERE/'generate_catalog.py']},
-        'source_hashes':{name:shared.sha256(shared.ROOT/name) for name in ['assets/brand/current/logo.svg','assets/brand/current/banner.svg']},
+        'source_hashes':shared.artwork_hashes(),
         'files':{name:hashlib.sha256(data).hexdigest() for name,data in result.items()}}
     result['manifest.json']=(json.dumps(receipt,indent=2)+'\n').encode()
     return result

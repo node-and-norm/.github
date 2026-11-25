@@ -1,5 +1,13 @@
 # Website and GitHub alignment
 
+## November 24, 2026
+
+The organization profile uses the supplied horizontal company banner. The [brand guide](assets/brand/README.md) also provides the companion banner, the stacked square logo and the website wordmark.
+
+The [Revocation repository](https://github.com/node-and-norm/revocation-delegated-workflows) is public. Six fixed schedules ran on a direct path and a checkpointed LangGraph path, using scripted workers and a local database. The [November 18 experimental software archive](https://github.com/node-and-norm/revocation-delegated-workflows/releases/tag/research-archive-2026-11-18) identifies the software snapshot. The [November 24 study account](https://nodeandnorm.org/research/revocation/essay/) explains the findings from the saved records. Independent replication and deployment evidence remain open.
+
+## Earlier alignment records
+
 Updated 26 September 2026 against the live website, the organization owner's approved banner, and the linked public repository READMEs.
 
 TAE status reconciled on 16 October 2026 against its v0.18.0 release and research-phase closeout record. This later update covers TAE publication and phase status only.

@@ -4,12 +4,12 @@
   "input_hashes": {
     "projects/human-influence-telemetry/config.json": "daf62fbd9d51c87c84318797eaff7d33b92cfe88b8e65db5c1564f8293ad3782",
     "tokens.json": "ddb30f6bbffed2fd978b24cd8195365c737337aeea609c40e16dd0d87110fde0",
-    "generate.py": "ac709d59bb4ccdb0d47b413c994a6bb8cabce58fd43c7ec2ad2906398f126a8e",
-    "generate_catalog.py": "99f34b99a90148e5327656cf432b0685d999a8c1f681892ddbf9126f7278b66d"
+    "generate.py": "1d994846e15093e7f245513ae8c72a757dad91500f0048478b43634ae371a756",
+    "generate_catalog.py": "109ea3d370216b5ef5ac74fbac59c1527b022648d6cf65a9a7abd63267c2ce3c"
   },
   "source_hashes": {
-    "assets/brand/current/logo.svg": "def26d7e6887ce1c1846ea3929816df9b9c6484f30679642d003724c3df85f55",
-    "assets/brand/current/banner.svg": "178e1018845b43ba22de409d389ee48860163b229ea8fbca2ad164c4d5d28df6"
+    "assets/research/v1/source-artwork/logo.svg": "def26d7e6887ce1c1846ea3929816df9b9c6484f30679642d003724c3df85f55",
+    "assets/research/v1/source-artwork/banner.svg": "178e1018845b43ba22de409d389ee48860163b229ea8fbca2ad164c4d5d28df6"
   },
   "files": {
     "banner-light.svg": "d819f2898145f1259f8f4af40fe87372e951e0520ac250d85fa2e461d67c3b59",

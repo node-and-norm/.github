@@ -1,8 +1,8 @@
 # Research identity assets
 
-The reference banner gives each research entry a title, purpose and Node & Norm identity. The [generator](generate.py) uses the existing [Witness mark](../../brand/current/logo.svg) and [outlined wordmark](../../brand/current/banner.svg). Their shapes remain unchanged. [Palette tokens](tokens.json) supply the theme colors.
+This catalog preserves the first version of the research banners and badges. Its [generator](generate.py) reads the original [Witness mark](source-artwork/logo.svg) and [outlined wordmark](source-artwork/banner.svg), preserved from [the original profile source](https://github.com/node-and-norm/.github/tree/d131d9115c41a429e42ac6d75489146324c88210/assets/brand/current). The [current brand directory](../../brand/) holds the artwork for new uses.
 
-The catalog contains the TAE reference and the program's repository banners. The [TAE configuration](tae.json) and [project configurations](projects/) link the sources for titles, purposes and badge values. Existing brand shapes and license files retain their current form. The research entries select dark assets in both browser themes.
+The [TAE configuration](tae.json) and [project configurations](projects/) document titles, purposes and badge values. [Palette tokens](tokens.json) supply the theme colors.
 
 ## Banner
 
@@ -35,7 +35,7 @@ Use the following markup when the versioned asset directory is local to the READ
 
 These five colors are defined in [tokens.json](tokens.json). Citron and light iris remain off paper-colored body text. The [contrast calculation](contrast.json) checks each declared text and accent pair against a 4.5:1 threshold. The [generator](generate.py) records the calculation. Rendered page accessibility requires a separate review.
 
-The title and purpose use Arial with Helvetica and sans-serif fallbacks. The [wordmark source](../../brand/README.md) retains its outlined Space Grotesk lettering. Its font license remains in the existing [brand directory](../../brand/current/SPACE-GROTESK-LICENSE.txt). This asset draft changes no license or trademark terms.
+The title and purpose use Arial with Helvetica and sans-serif fallbacks. The [v1 wordmark](source-artwork/banner.svg) retains its outlined Space Grotesk lettering. Its font license remains in the existing [brand directory](../../brand/current/SPACE-GROTESK-LICENSE.txt). This asset draft changes no license or trademark terms.
 
 ## Badges
 
@@ -83,4 +83,4 @@ python3 assets/research/v1/generate_catalog.py
 python3 assets/research/v1/generate_catalog.py --check
 ```
 
-For the nine catalog entries in this revision, the expected outputs are `93 catalog outputs written.` and `93 catalog outputs match.` The original TAE generator remains separately reproducible. Light variants remain available in the catalog. The current integration uses Carbon backgrounds, paper text, iris accents and citron markers in both browser themes.
+For the nine catalog entries in this revision, the expected outputs are `93 catalog outputs written.` and `93 catalog outputs match.` The original TAE generator remains separately reproducible. Light variants remain available in the catalog. Version 1 uses Carbon backgrounds, paper text, iris accents and citron markers in both browser themes.
